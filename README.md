@@ -4,5 +4,6 @@
 
 # Тестовые задания в компанию Ticketscloud
 
-* [Javascript developer frontend/mobile](./tasks/js-frontend.md)
-* [Python developer](./tasks/python.md)
+* [Javascript developer frontend](./tasks/js-frontend.md) (api, react, fetch, state)
+* [Javascript developer mobile](./tasks/js-mobile.md) (react, react-native)
+* [Python developer](./tasks/python.md) (asyncio, api, http, sql)
