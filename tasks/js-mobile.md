@@ -6,7 +6,18 @@
 
 ## Задача
 
-Для загрузки погоды используйте: https://openweathermap.org/api/hourly-forecast
+Для загрузки погоды используйте:
+
+Прогноз на день:
+```http
+GET https://api.openweathermap.org/data/2.5/weather?q=Moscow&units=metric&appid={{apiKey}}
+```
+
+Прогноз на ближайшие дни:
+```http
+GET https://api.openweathermap.org/data/2.5/forecast?q=Moscow&units=metric&appid={{apiKey}}
+```
+
 Можете использовать этот API ключ (или получите свой):
 `d7b00e3b1c8cc224e73f52f2cf64a792`
 
