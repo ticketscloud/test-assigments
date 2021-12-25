@@ -10,12 +10,12 @@
 
 Прогноз на день:
 ```http
-GET https://api.openweathermap.org/data/2.5/weather?q=Moscow&units=metric&appid={{apiKey}}
+GET https://api.openweathermap.org/data/2.5/weather?q=Moscow&units=metric&appid={apiKey}
 ```
 
 Прогноз на ближайшие дни:
 ```http
-GET https://api.openweathermap.org/data/2.5/forecast?q=Moscow&units=metric&appid={{apiKey}}
+GET https://api.openweathermap.org/data/2.5/forecast?q=Moscow&units=metric&appid={apiKey}
 ```
 
 Можете использовать этот API ключ (или получите свой):
